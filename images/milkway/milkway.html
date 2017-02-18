@@ -1,33 +1,16 @@
-<HTML>
-<BODY BGCOLOR=#000000>
-<DIV ALIGN="CENTER">
-
-<TABLE BGCOLOR=#999999 CELLPADDING=1 CELLSPACING=0 BORDER=0 WIDTH="1000" ALIGN="CENTER">
-  <TR>
-	<TD>
-	  <TABLE BGCOLOR=#000000 CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=100%>
-		<TR>
-		  <TD>
-		  	  <OBJECT CLASSID="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" CODEBASE="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" WIDTH="1000" HEIGHT="570" ID="theMovie">
-                		<PARAM NAME="FlashVars" VALUE="zoomifyImagePath=milkway_img&zoomifyNavigatorVisible=false">
-                		<PARAM NAME="BGCOLOR" VALUE="#000000">
-                		<PARAM NAME="MENU" VALUE="FALSE">
-				<PARAM NAME="SRC" VALUE="milkway_img/zoomifyViewer.swf">
-               			<EMBED FlashVars="zoomifyImagePath=milkway_img&zoomifyNavigatorVisible=false" SRC="milkway_img/zoomifyViewer.swf" BGCOLOR="#000000" MENU="false" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"  WIDTH="1000" HEIGHT="570" NAME="theMovie"></EMBED>
-             		 </OBJECT></TD>
-		</TR>
-	  </TABLE>
-	</TD>
-  </TR>
-</TABLE>
-
-<TABLE BGCOLOR=#000000 CELLPADDING=1 CELLSPACING=0 BORDER=0 WIDTH="1000" ALIGN="CENTER">
-  <TR>
-    <TD align="Right">
-      <Font size="1" face="arial" color="#999999">Powered by <a href="http://www.zoomify.com/" target="_blank"><Font color="#999999">Zoomify</Font></a></Font>
-    </TD>
-</TABLE>
-
-</DIV>
-</BODY>
-</HTML>
+<!doctype html>
+<html xml:lang="EN" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
+		<script type="text/javascript" src="ZoomifyImageViewer-min.js"></script>
+		<style type="text/css"> #myContainer { width:800px; height:600px; margin:auto; border:1px; border-style:solid; border-color:#696969;} </style>
+		<script type="text/javascript"> Z.showImage("myContainer", "milkway", "zNavigatorVisible=0"); </script>
+	</head>
+	<body bgcolor=#000000>
+		<br>
+		<div id="myContainer"></div>
+		<br><br><br><br>
+		<div align='right'><font size="1" face="arial" color="#999999">Powered by <a href="http://www.zoomify.com/" target="_blank"><font color="#999999">Zoomify </font></a></font></div>	
+		<br>
+	</body>
+</html>
